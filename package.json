@@ -1,0 +1,20 @@
+{
+  "name": "data-structures",
+  "version": "1.0.0",
+  "description": "Project to learn how the most common data structures works, and how to implements them, this project is based on the book 'Data structures and algorithms with JavaScript - Loiane Gronner'",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabrielsbrl/data-structures.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gabrielsbrl/data-structures/issues"
+  },
+  "homepage": "https://github.com/gabrielsbrl/data-structures#readme"
+}
