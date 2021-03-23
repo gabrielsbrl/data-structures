@@ -16,3 +16,10 @@ exampleArray.sort((a, b) => {
     if(a > b) return -1;
 });
 console.log("Descending: ", exampleArray);
+
+// slide examples
+// first position is inclusive, last position is not inclusive
+// the slice function returns a new list, leting the original list immutable
+let slicedArray = exampleArray.slice(1, 5);
+console.log("sliced array: ", slicedArray);
+console.log("original array: ", exampleArray);
