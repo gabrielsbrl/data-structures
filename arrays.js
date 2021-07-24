@@ -4,10 +4,10 @@ let exampleArray = [];
 exampleArray[exampleArray.length] = 0;
 // with array built in function 'push'
 exampleArray.push(1);
-// by unsing push, its possible to add more than one element at a time
+// by using push, its possible to add more than one element at a time
 exampleArray.push(2,3,4,5);
 
-// ways to add content to the begining of an array
+// ways to add content to the beginning of an array
 for(let i = exampleArray.length; i > 0; i--) {    
     exampleArray[i] = exampleArray[i - 1];
 }
@@ -44,7 +44,7 @@ exampleArray.removeFirst();
 // the builtin method to remove the first element of an array
 exampleArray.shift();
 
-// to remove elements in a specifc position, theres the method splice
+// to remove elements in a specific position, theres the method splice
 exampleArray.splice(5, 3); // 1 - start position (not inclusive), 2 - quantity of elements
 
 // with splice is possible to add elements to specific positions too
